@@ -13,7 +13,7 @@ Jdbc:       https://jdbc.postgresql.org/download.html
 PostgreSQL: https://www.tutorialspoint.com/postgresql/postgresql_java.htm
 
 If your follow the steps in those links correctly. Your Java modulepath should looks like this:
-## Path image
+<img src="Images/BuildPath.png" width="400" >
 
 ## Step 2. Create local Database on PostgreSQL
 Run postgreSQL, name the server as 'localhost' and set the portal to be '5432' like this:
@@ -39,7 +39,7 @@ Source code can be found under the file 'src'. Copy all .java file into the proj
 <img src="Images/SourceCode.png" width="300" >
 
 Then open and run the gui.java file. If everything goes well. you will see the program interface:
-## interface
+<img src="Images/Interface.png" width="400" >
 
 # Tutorial
 1. Use the scan function to scan pdf and store the extracted email and skill into the database:
@@ -54,7 +54,7 @@ Input the skills you want to search and press 'search' button, the program will 
 
 You can also input multiple skills using ';' as seperator to ask for the employees that have all the inputed skills like this:
 <img src="Images/MultiQuery.png" width="400" >
-
+You may have noticed that comparing with the result searching for 'C++' only, searching C++ and Keras at the same time only gives you the candidate with both skills, therefore, less email is returned. 
 
 
 
