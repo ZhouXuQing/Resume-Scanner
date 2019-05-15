@@ -1,6 +1,6 @@
 # Skill scan and query system     
 
-This system (written in java) is designed to automatically extract emails and skills in resumes and pick out the resumes with certain skills, so that employer can quickly identify the employees they want to hire and contact them.
+This system (written in java) is designed to extract emails and skills in resumes and pick out the resume-owners with certain skills, so that employer can quickly identify and contact eligible employees.
 
 # Set up Environment
 ## Step 1. download dependency components and build java path
@@ -13,7 +13,6 @@ Jdbc:       https://jdbc.postgresql.org/download.html
 PostgreSQL: https://www.tutorialspoint.com/postgresql/postgresql_java.htm
 
 If your follow the steps in those links correctly. Your Java modulepath should looks like this:
-## Path Picture
 <img src="Images/Image1.png" width="400" >
 
 ## Step 2. Create local Database on PostgreSQL
