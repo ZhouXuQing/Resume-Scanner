@@ -13,11 +13,11 @@ Jdbc:       https://jdbc.postgresql.org/download.html
 PostgreSQL: https://www.tutorialspoint.com/postgresql/postgresql_java.htm
 
 If your follow the steps in those links correctly. Your Java modulepath should looks like this:
-<img src="Images/Image1.png" width="400" >
+<img src="Images/JavaPath.png" width="400" >
 
 ## Step 2. Create local Database on PostgreSQL
 Run postgreSQL, name the server as localhost and set the portal to be 5432 like this:
-## server picture
+<img src="Images/ServerSetting.png" width="400" >
 
 Open postgreSQL, type in the following command:
 create database testdb;
@@ -26,27 +26,27 @@ create table skill(email varchar(256), skill varchar(32));
 \d
 
 These commands will build a database named 'testdb', create a table named 'skill' in it, and show you the table. If do it correctly, you will get something like this: 
-## table picture
+<img src="Images/CreateTable.png" width="400" >
 
 ## Step3: Copy and run the source code
 Source code can be found under the file 'src'. Copy all .java file into the project for which you set environment like this: (In the following screenhot, the project is named pdf)
-## source code picture
+<img src="Images/SourceCode.png" width="400" >
 Then open and run the gui.java file. If everything goes well. you will see the program interface:
-## interface picture
+## interface
 
 # Tutorial
 1. Use the scan function to scan pdf and store the extracted email and skill into the database:
 Input the path of the target resume like this and press ‘scan & store’ button. 
-## input picture
+<img src="Images/InputPath.png" width="400" >
 You will see the skills and email presented in the resume and a message telling you that they are properly stored into the database: 
-## return picture
+<img src="Images/StoreReport.png" width="400" >
 
 2. Use the query function to search for the emails of certain skill-owners. 
 Input the skills you want to search and press 'search' button, the program will show you all the emails of the owner of the resumes that have been scaned before like this:
-## single query picture
+<img src="Images/SingleQuery.png" width="400" >
 
 You can also input multiple skills using ';' as seperator to ask for the employees that have all the inputed skills like this:
-## multiple query picture
+<img src="Images/MultiQuery.png" width="400" >
 
 
 
