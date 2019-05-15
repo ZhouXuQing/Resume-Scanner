@@ -13,24 +13,31 @@ Jdbc:       https://jdbc.postgresql.org/download.html
 PostgreSQL: https://www.tutorialspoint.com/postgresql/postgresql_java.htm
 
 If your follow the steps in those links correctly. Your Java modulepath should looks like this:
-<img src="Images/JavaPath.png" width="400" >
+## Path image
 
 ## Step 2. Create local Database on PostgreSQL
-Run postgreSQL, name the server as localhost and set the portal to be 5432 like this:
+Run postgreSQL, name the server as 'localhost' and set the portal to be '5432' like this:
 <img src="Images/ServerSetting.png" width="400" >
 
-Open postgreSQL, type in the following command:
+Open postgreSQL, type in the following commands:
+
 create database testdb;
+
 \c testdb
+
 create table skill(email varchar(256), skill varchar(32));
+
 \d
 
 These commands will build a database named 'testdb', create a table named 'skill' in it, and show you the table. If do it correctly, you will get something like this: 
-<img src="Images/CreateTable.png" width="400" >
+
+<img src="Images/CreateTable.png" width="300" >
 
 ## Step3: Copy and run the source code
 Source code can be found under the file 'src'. Copy all .java file into the project for which you set environment like this: (In the following screenhot, the project is named pdf)
-<img src="Images/SourceCode.png" width="400" >
+
+<img src="Images/SourceCode.png" width="300" >
+
 Then open and run the gui.java file. If everything goes well. you will see the program interface:
 ## interface
 
