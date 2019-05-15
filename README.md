@@ -1,4 +1,5 @@
 # Skill scan and query system     
+Created by: XuQing Zhou (xuqignzhou@gwu.edu)
 
 This system (written in java) is designed to extract emails and skills in resumes and pick out the resume-owners with certain skills, so that employer can quickly identify and contact eligible employees.
 
